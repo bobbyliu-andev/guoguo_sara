@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import LogoPic from '../../statics/logo1.jpeg';
+import LogoPic from '../../statics/logo2.jpeg';
 
 export const HeaderWrapper = styled.div`
   display: flex;

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {FooterWrapper,Img} from './style';
-import LogoPic from '../../statics/logo2.jpeg';
+import LogoPic from '../../statics/logo1.jpeg';
 import iOSPic from '../../statics/ios_qr.png';
 import SaraQR from '../../statics/sara_qr.jpeg';
 
