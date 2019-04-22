@@ -9,6 +9,6 @@ export const HeaderWrapper = styled.div`
 export const Logo = styled.img.attrs({
   src: LogoPic
 })`
-  width: 80px;
-  height: 80px;
+  margin: 12px;
+  height: 56px;
 `

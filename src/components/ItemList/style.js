@@ -11,11 +11,15 @@ export const ListWrapper = styled.div`
 export const Item = styled.div`
   width: 330px;
   display: inline-block;
-  margin: 0.5rem;
-  padding: 1rem;
+  margin: 1.2rem;
+  padding: 0.5rem;
   line-height: 1.5;
   box-shadow: 0 0 3px #999;
   border-radius: 5px;
+  transition: all 0.2s ease-out;
+  &:hover {
+    transform: scale(1.05);
+  }
 `
 
 export const ItemPreview = styled.img`

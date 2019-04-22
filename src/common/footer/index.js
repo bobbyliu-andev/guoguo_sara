@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {FooterWrapper,Img} from './style';
+import {FooterWrapper,Img,Logo} from './style';
 import LogoPic from '../../statics/logo1.jpeg';
 import iOSPic from '../../statics/ios_qr.png';
 import SaraQR from '../../statics/sara_qr.jpeg';
@@ -8,7 +8,7 @@ class Footer extends Component {
   render() {
     return (
       <>
-        <Img src={LogoPic} />
+        <Logo src={LogoPic} />
         <FooterWrapper>
           <Img src={SaraQR} />
           <Img src={iOSPic} />
