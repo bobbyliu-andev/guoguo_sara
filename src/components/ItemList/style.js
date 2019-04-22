@@ -9,7 +9,7 @@ export const ListWrapper = styled.div`
 `
 
 export const Item = styled.div`
-  width: 330px;
+  width: 300px;
   display: inline-block;
   margin: 1.2rem;
   padding: 0.5rem;
